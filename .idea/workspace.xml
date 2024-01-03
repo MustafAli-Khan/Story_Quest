@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ef11078e-4ebc-4176-abac-8383ca920bab" name="Changes" comment="Dragon's D">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +86,10 @@
       <updated>1703842043569</updated>
       <workItem from="1703842046236" duration="15739000" />
       <workItem from="1703883621758" duration="21000" />
+      <workItem from="1703883835337" duration="249000" />
+      <workItem from="1703884186596" duration="3000" />
+      <workItem from="1703934315192" duration="3773000" />
+      <workItem from="1704191182607" duration="224000" />
     </task>
     <task id="LOCAL-00001" summary="Dragon's Dawn">
       <option name="closed" value="true" />
@@ -102,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703883547079</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dragon's D">
+      <option name="closed" value="true" />
+      <created>1703883958365</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703883958365</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,18 +137,7 @@
     <MESSAGE value="Dragon's D" />
     <option name="LAST_COMMIT_MESSAGE" value="Dragon's D" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>98</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Story_Quest$main.coverage" NAME="main Coverage Results" MODIFIED="1703883332647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Story_Quest$main.coverage" NAME="main Coverage Results" MODIFIED="1704191195978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

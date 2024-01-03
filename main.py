@@ -34,7 +34,7 @@ print(
     "\nOh child of Adam, would you embark on the quest of Dragon Dawn ? Would you free the world of the fangs of Undead Ouroboros ? Type 'Y' or 'N' to continue.")
 choice = input("What do you choose ?")
 
-if choice == "Y":
+if choice == "Y" or choice == "y":
 
     OP += 1
     print(
@@ -47,7 +47,7 @@ if choice == "Y":
 
     choice = input("What do you choose ?")
 
-    if choice == "Y":
+    if choice == "Y" or choice == "y":
         OP += 1
         print(r'''
         -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -80,7 +80,7 @@ if choice == "Y":
                   \\\\   /   \        __________________________________
                    \\\\_/ \   \      /                                  \
                     \     /\__/     /    I know where the Oracle lives.  \
-                     \O -/          \       It's a good thing u saved me /
+                     \O -/          \    It's a good thing u saved me    /
                   ___/ ^ \___       / __________________________________/
                      \___/         /_/
                      _/ \_
@@ -96,16 +96,35 @@ if choice == "Y":
 
         #   Stage 3
 
-        if choice == "Y":
-            print("build")
+        if choice == "Y" or choice == "y":
+            print(r''' 
+                     _       _
+                    / \     / \
+                   {   }   {   }
+                   {   {   }   }
+                    \   \ /   /
+                     \   Y   /
+                     .-"`"`"-.
+                   ,`         `.
+                  /             \
+                 /               \
+                {     ;"";,       }
+                {  /";`'`,;       }
+                 \{  ;`,'`;.     /
+                  {  }`""`  }   /}
+                  {  }      {  //  
+                  {||}      {  /
+                  `"'       `"'
+            
+            ''')
 
-        elif choice == "N":
+        elif choice == "N" or choice == "n":
             print("exit")
 
 
 
 
-    elif choice == "N":
+    elif choice == "N" or choice == "n":
         OP -= 1
         print(
             "\nYou enter the forest, the haunting echo of the rabbit's final cry lingering in the air, a mournful melody that taints the serenity of the woods.")
@@ -125,7 +144,7 @@ if choice == "Y":
          ||      /    \)___)\_
          | \____(      )___) )____
           \______(_______;;;)__;;;)  ''')
-elif choice == "N":
+elif choice == "N" or choice =="n":
     print(r'''
              __.-/|
              \`o_O'
